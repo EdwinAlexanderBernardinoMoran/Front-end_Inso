@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/public/css/materialize.min.css",
+              "src/public/css/icons.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/public/js/jquery-3.6.0.min.js",
+              "src/public/js/materialize.min.js",
+              "src/public/js/app.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "af0f4a88-7e46-4ad3-9eaf-38ceb4a61e91"
   }
 }
